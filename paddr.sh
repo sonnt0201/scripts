@@ -25,7 +25,7 @@ for (( begin=0; begin<${#info}; begin++ )); do
 
                 # copy to clipboard
                 if ! command -v xclip &> /dev/null; then
-                    echo "Error: Cannot copy address to clipboard due to xclip is not found. Please install it using: "
+                    echo "Error: Cannot copy address to clipboard due to xclip not found. Please install it using: "
                     echo "sudo apt-get install xclip"
             
                 else
